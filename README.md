@@ -20,11 +20,11 @@
 
 1. install react-native-star-rating and its dependeices
 ```sh
-npm install react-native-star-rating --save
+npm install react-native-star-rating-new --save
 ```
 or
 ```sh
-yarn add react-native-star-rating
+yarn add react-native-star-rating-new
 ```
 2. link `react-native-vector-icons`   
 please refer to [react-native-vector-icons installation guide](https://github.com/oblador/react-native-vector-icons#installation)
