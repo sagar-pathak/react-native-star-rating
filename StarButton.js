@@ -1,11 +1,11 @@
 // React and react native imports
 import React, { Component } from 'react';
-import { Image, StyleSheet, ViewPropTypes } from 'react-native';
+import { Image, StyleSheet, ViewPropTypes, TouchableOpacity } from 'react-native';
 import PropTypes from 'prop-types';
 import { createIconSetFromIcoMoon } from 'react-native-vector-icons';
 
 // Third party imports
-import Button from 'react-native-button';
+// import Button from 'react-native-button';
 import EntypoIcons from 'react-native-vector-icons/Entypo';
 import EvilIconsIcons from 'react-native-vector-icons/EvilIcons';
 import FeatherIcons from 'react-native-vector-icons/Feather';
@@ -154,14 +154,14 @@ class StarButton extends Component {
     } = this.props;
 
     return (
-      <Button
+      <TouchableOpacity
         activeOpacity={activeOpacity}
         disabled={disabled}
         containerStyle={buttonStyle}
         onPress={this.onButtonPress}
       >
         {this.renderIcon()}
-      </Button>
+      </TouchableOpacity>
     );
   }
 }
