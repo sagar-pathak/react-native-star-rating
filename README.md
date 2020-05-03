@@ -64,7 +64,7 @@ For the `animation` prop, please refer to the [react-native-animatable](https://
 The following example will render 3.5 stars out of 5 stars using the `star-o` for the empty star icon, `star-half-o` for the half star icon, and `star` for the full star icon from the `FontAwesome` icon set in black color.
 
 ```js
-import StarRating from 'react-native-star-rating';
+import StarRating from 'react-native-star-rating-new';
 
 class GeneralStarExample extends Component {
 
@@ -105,7 +105,7 @@ export default GeneralStarExample
 The following example will render 2.5 stars out of 7 stars using the `ios-star-outline` for the empty star icon, `ios-star-half` for the half star icon, and `ios-star` for the full star icon from the `Ionicons` icon set in red color.
 
 ```js
-import StarRating from 'react-native-star-rating';
+import StarRating from 'react-native-star-rating-new';
 
 class CustomStarExample extends Component {
 
